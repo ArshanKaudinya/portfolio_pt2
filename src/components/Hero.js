@@ -27,10 +27,10 @@ function Hero() {
       className={`
         absolute top-0 left-0
         w-full h-screen
-        z-50
+        z-10
         flex items-center justify-center
         bg-white
-        transition-all duration-700
+        transition-all duration-1000
         ${fade ? 'opacity-0 -translate-y-10' : 'opacity-100 translate-y-0'}
       `}
       onTransitionEnd={handleTransitionEnd}
